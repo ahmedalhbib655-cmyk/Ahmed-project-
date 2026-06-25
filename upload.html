@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رفع محاضرة</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>📚 مكتبة المحاضرات</h1>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="login.html">تسجيل الدخول</a>
+            <a href="register.html">إنشاء حساب</a>
+            <a href="lectures.html">المحاضرات</a>
+            <a href="upload.html">رفع محاضرة</a>
+            <a href="#" onclick="logout()">تسجيل الخروج</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="form-box">
+            <h2>رفع محاضرة</h2>
+            <input type="text" placeholder="اسم المادة">
+            <input type="text" placeholder="عنوان المحاضرة">
+            <input type="file">
+            <button onclick="uploadLecture()">رفع المحاضرة</button>
+        </div>
+    </section>
+
+    <footer>جميع الحقوق محفوظة © مكتبة المحاضرات</footer>
+    <script src="script.js"></script>
+</body>
+</html>
