@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الرئيسية - مكتبة المحاضرات</title>
+    <title>تسجيل الدخول - مكتبة المحاضرات</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <h1>📚 مكتبة المحاضرات</h1>
         <nav>
-            <a href="index.html">الرئيسية</a>
-            <a href="login.html">تسجيل الدخول</a>
+            <!-- حذفت رابط "الرئيسية" لأننا فيها -->
             <a href="register.html">إنشاء حساب</a>
-            <a href="lectures.html">المحاضرات</a>
-            <a href="upload.html">رفع محاضرة</a>
-            <a href="#" onclick="logout()">تسجيل الخروج</a>
         </nav>
     </header>
 
     <section>
-        <div class="hero">
-            <h2>مرحباً بك في مكتبة المحاضرات</h2>
-            <p>شارك محاضراتك وقم بتحميل ملفات PDF و PPT بسهولة</p>
-            <br>
-            <button onclick="window.location.href='lectures.html'">تصفح المحاضرات</button>
+        <div class="form-box">
+            <h2>🔐 تسجيل الدخول</h2>
+            <input type="email" id="loginEmail" placeholder="البريد الإلكتروني">
+            <input type="password" id="loginPassword" placeholder="كلمة المرور">
+            <button onclick="login()">دخول</button>
+
+            <div class="contact-icons">
+                <a href="tel:+249115309500">📞 اتصل بنا</a>
+                <a href="https://wa.me/249115309500" target="_blank">💬 Whatsapp</a>
+                <p>تواصل معنا</p>
+            </div>
         </div>
     </section>
 
