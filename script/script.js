@@ -2,19 +2,19 @@
 function login() {
     // هنا يمكنك إضافة منطق التحقق (سنكتفي بالتنبيه حالياً)
     alert("تم تسجيل الدخول بنجاح");
-    window.location.href = "index.html"; // الانتقال للصفحة الرئيسية
+    window.location.href = "home.html"; // الانتقال للصفحة الرئيسية (بعد التعديل)
 }
 
 // دالة تسجيل الخروج
 function logout() {
     alert("تم تسجيل الخروج");
-    window.location.href = "login.html"; // العودة لصفحة الدخول
+    window.location.href = "index.html"; // العودة لصفحة الدخول (التي أصبحت index.html)
 }
 
 // دالة إنشاء حساب
 function registerUser() {
     alert("تم إنشاء الحساب بنجاح");
-    window.location.href = "login.html"; // التوجه لتسجيل الدخول
+    window.location.href = "index.html"; // التوجه لتسجيل الدخول (index.html)
 }
 
 // دالة رفع محاضرة
